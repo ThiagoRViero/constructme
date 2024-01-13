@@ -1,0 +1,36 @@
+.imgProdutos {
+    width: 100%;
+    
+}
+.bg-lateral{
+    background-color:#F5F5F5;
+}
+.imgCarrinho{
+    max-width: 150px;
+    width: 100%;
+}
+.textoCarrinho{
+    padding: 0.25em 0.4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 0.1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+}
+.mensagemValor{
+    padding: 0.25em 0.4em;
+    font-size: 75%;
+    font-weight: 700;
+    text-align: center;
+}
+.bg-cinza{
+    background-color: beige;
+}
+.mgcenter{
+    margin:auto;
+}
+.solucao{
+    height: 400px;
+}
