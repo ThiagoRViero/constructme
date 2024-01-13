@@ -88,7 +88,7 @@ if(isset($valor) && $valor != null){Solucoes::alterarValor($valor, $id);};
                     <div class="col-md-6 mt-3">
                         <form method="post">
                             <label for="valor">Valor:</label>
-                            <input  class="form-control " type="text" name="valor" id="valor" placeholder="<?php echo $rs['valor'];?>">
+                            <input  class="form-control " type="number" name="valor" id="valor" placeholder="<?php echo $rs['valor'];?>">
                             <input class="btn btn-outline-success mt-2" type="submit" value="Salvar">
                         </form>
                     </div>

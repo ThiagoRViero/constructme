@@ -15,6 +15,16 @@ class conexao{
 		try {
 			self::$instancia = new PDO (DSN.':host='.SERVIDOR.';dbname='.BANCODEDADOS,USUARIO,SENHA);
 		} catch (PDOException $erro) {
+            try {
+                $file = file_get_contents("bd/constructme.sql");
+                $con = new PDO (DSN.':host='.SERVIDOR.';',USUARIO,SENHA);
+                $con->beginTransaction();
+                $stmt = $con->prepare($file);
+                $stmt->execute();
+                $con->commit(); 
+            } catch (PDOException $erro) {
+                echo "Erro na conexão:";
+            }
 			echo "Erro na conexão:";
 		}
        

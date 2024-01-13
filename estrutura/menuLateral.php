@@ -4,7 +4,7 @@
         <nav class="navbar navbar-expand-sm rounded  bg-lateral w-100  pr-sm-3 pl-sm-1 justify-content-center ">
             
             <button class="navbar-toggler d-sm-block d-md-none p-0 m-0" type="button" data-toggle="collapse" data-target="#lateral" >
-                <span class="navbar-toggler-icon p-0 m-0">Filtrar</span>
+                <span class=" btn btn-outline-secondary m-0">Filtrar</span>
             </button>
             <div id="lateral" class="collapse navbar-collapse  flex-column pl-5 pl-sm-3">
                 <?php 

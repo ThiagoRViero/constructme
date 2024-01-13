@@ -11,7 +11,7 @@
         </button>
     <!-- Tudo dentro da div a seguir ira desaparecer quando o menu nao estiver expandido -->
         <div id="hamburguer" class="collapse navbar-collapse">
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav ">
                 <li class="nav-item mx-auto mt-2">
                     <a href="index.php" class="nav-link">Home</a>
                 </li>
@@ -19,7 +19,7 @@
                     <a href="solucao.php?pagina=1&tipoSolucao=1" class="nav-link">Produtos</a>
                 </li>
                 <li class="nav-item mx-auto mt-2">
-                <a href="solucao.php?pagina=1&tipoSolucao=0" class="nav-link">Servicos</a>
+                <a href="solucao.php?pagina=1&tipoSolucao=0" class="nav-link">Serviços</a>
                 </li>
                 <li class="nav-item mx-auto mt-2">
                 <a href="sobre.php?pagina=1" class="nav-link">Sobre</a>
@@ -29,9 +29,9 @@
                     
                 </li>
             </ul>
-            <div clas="mx-auto">
+            <div class="m-0 ms-auto">
                 <?php if(isset($_SESSION['usuario'])){?>
-                    <a href="adicionarSolucao.php" class="nav-link text-light btn btn-success pt-0 pb-0 pl-1 pr-1">Add Produto</a>
+                    <a href="adicionarSolucao.php" class="  text-light btn btn-success pt-0 pb-0 pl-1 pr-1">Add Produto</a>
                 <?php } else{?>
                     <a href="carrinho.php?" class="nav-link">Carrinho</a>
                 <?php } ?>'
